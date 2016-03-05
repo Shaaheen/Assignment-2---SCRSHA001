@@ -14,7 +14,6 @@ namespace SCRSHA001{
     VolImage::VolImage() {
         width = 0;
         height =0;
-        //(**slices)= nullptr;
     }
 
     VolImage::~VolImage() {
@@ -29,7 +28,7 @@ namespace SCRSHA001{
             }
             delete [] slices[i];
         }
-        //delete slices;
+        slices.clear();
         width = 0;
         height= 0;
     }
@@ -53,13 +52,13 @@ namespace SCRSHA001{
             cout<< fileDirectory + baseName   + to_string(i) +  ".raw" <<endl;
             ifstream rawFile(fileDirectory + baseName   + to_string(i) +  ".raw",ios::binary);
             if (rawFile.is_open()){
-                slices.push_back( (unsigned char **) new char[height]);
+                slices.push_back( (unsigned char **) new char**[height]);
                 for (int j = 0; j < height; ++j) {
-                    slices[i][j] = (unsigned char *) new char[width];
+                    slices[i][j] = (unsigned char *) new char*[width];
                     for (int k = 0; k < width; ++k) {
                         //cout <<rawFile.get() <<" ";
 
-                        slices[i][j][k] = (unsigned char) rawFile.get();
+                        slices[i][j][k] = (unsigned char) char(rawFile.get());
                     }
                     //cout << endl;
                    // cout << "loop" <<endl;
