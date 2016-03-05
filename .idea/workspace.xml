@@ -59,8 +59,8 @@
       <file leaf-file-name="VolImage.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VolImage.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77936965">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2922636">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="e#43#61#0" expanded="true" />
               </folding>
@@ -220,7 +220,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457182840380</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented the Constructor and Deconstructor methods for VolImage">
+      <created>1457182910052</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457182910052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -261,7 +267,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added user interface prompts and allowed command line arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added user interface prompts and allowed command line arguments" />
+    <MESSAGE value="Implemented the Constructor and Deconstructor methods for VolImage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the Constructor and Deconstructor methods for VolImage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -298,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VolImage.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77936965">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2922636">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
           </folding>
