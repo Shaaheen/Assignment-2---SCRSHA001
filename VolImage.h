@@ -22,6 +22,8 @@ namespace SCRSHA001{
         //set member variables define in .cpp
         bool readImages(std::string baseName);
 
+
+
         // compute difference map and write out; define in .cpp
         void diffmap(int sliceI, int sliceJ, std::string output_prefix);
 
@@ -35,6 +37,8 @@ namespace SCRSHA001{
         //To get the number of file
         int numOfImages(void);
     };
+
+    void createDefaultHeader(std::string outputPrefix);
 }
 
 

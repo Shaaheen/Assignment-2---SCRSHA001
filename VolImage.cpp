@@ -81,13 +81,19 @@ namespace SCRSHA001{
 
     }
 
+    //Function to create a default header for any new raw data created
+    void createDefaultHeader(string output_prefix) {
+        fstream outputHeader;
+        outputHeader.open(output_prefix + ".data",ios::out); //Create and open file for writing
+        outputHeader << "1 1 1" << endl; //New default header file
+        outputHeader.close();
+    }
+
+
     //Method to copy a specific image slice into a new output file
     void VolImage::extract(int sliceId, std::string output_prefix) {
         //Create a header file for the new output raw
-        fstream outputHeader;
-        outputHeader.open(output_prefix + ".data",ios::out);
-        outputHeader << "1 1 1" << endl; //New default header file
-        outputHeader.close();
+        createDefaultHeader(output_prefix);
 
         //Create new output raw file in binary and for writing
         ofstream outputFileOfSlice(output_prefix + ".raw",ios::out | ios::binary);
@@ -108,4 +114,6 @@ namespace SCRSHA001{
     int VolImage::numOfImages(void) {
         return slices.size();
     }
+
+
 }
