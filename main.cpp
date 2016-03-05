@@ -25,7 +25,18 @@ int main(int argc,char* argv[]) {
 
             //If command is to extract
             if (string(argv[2]) == "-x"){
-                cout << "Argv[3]: " <<( argv[3]  ) <<endl; //todo CANT DO int(argv[3])
+
+                //Get variables from the command line arguments
+                stringstream getIndex(argv[3]);
+                int indexOfFile;
+                getIndex >> indexOfFile;
+
+                stringstream getOutputFileName(argv[4]);
+                string outputName;
+                getOutputFileName >> outputName;
+
+                volImage->extract(indexOfFile,outputName);
+                cout << "Argv[3]: " << (indexOfFile + 1)<< " " << outputName <<endl; //todo CANT DO int(argv[3])
             }
         }
     }

@@ -47,9 +47,10 @@ namespace SCRSHA001{
         streamOfHeaderInfo >> height;
         streamOfHeaderInfo >> numOfFiles;
 
+        cout << "Loading raw files into program..." <<endl;
         //Insert binary data from raw files into slices array
         for (int i = 0; i < numOfFiles; i++) {
-            cout<< fileDirectory + baseName   + to_string(i) +  ".raw" <<endl;
+            //cout<< fileDirectory + baseName   + to_string(i) +  ".raw" <<endl;
             //Access raw file as binary
             ifstream rawFile(fileDirectory + baseName   + to_string(i) +  ".raw",ios::binary);
 
@@ -71,8 +72,8 @@ namespace SCRSHA001{
             }
             //cout << "Done with File"<<endl;
         }
-        cout<< to_string(slices[0][1][2]) << endl;
-        cout <<"end of loop"<<endl;
+       // cout<< to_string(slices[0][1][2]) << endl;
+        cout <<"Loaded all Raw files"<<endl;
         return true; //If could open all files -return true
     }
 
@@ -80,8 +81,23 @@ namespace SCRSHA001{
 
     }
 
+    //Method to copy a specific image slice into a new output file
     void VolImage::extract(int sliceId, std::string output_prefix) {
-        //todo extracts
+        //Create a header file for the new output raw
+        fstream outputHeader;
+        outputHeader.open(output_prefix + ".data",ios::out);
+        outputHeader << "1 1 1" << endl; //New default header file
+        outputHeader.close();
+
+        //Create new output raw file in binary and for writing
+        ofstream outputFileOfSlice(output_prefix + ".raw",ios::out | ios::binary);
+        for (int i = 0; i < height; ++i) {
+            for (int j = 0; j < width; ++j) {
+                //Write char in slice array into new slice image
+                outputFileOfSlice.write((const char *) &slices[sliceId][i][j], sizeof(char));
+            }
+        }
+        outputFileOfSlice.close();
     }
 
     int VolImage::volImageSize(void) {
