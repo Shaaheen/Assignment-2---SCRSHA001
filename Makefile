@@ -21,6 +21,3 @@ main.o : VolImage.h main.cpp
 #Never submit binaries to your git repo or vula, so create a rule for cleaning up the binary objects just leaving your source code behind
 clean:
 	@rm *.o volimage
-#special rule to run your code... your tutor will probably love you for this!
-run:
-	./volimage

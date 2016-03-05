@@ -12,7 +12,7 @@ using namespace SCRSHA001;
 //Take in arguments from command line
 int main(int argc,char* argv[]) {
     cout << "Volumetric Image Manipulation Tool - SCRSHA001" << endl;
-    cout << "Available command = -x -d -g " << endl;
+    cout << "Available commands = -x -d -g " << endl;
 
     //Check if right amount of arguments
     if (argc >6 || argc < 4){

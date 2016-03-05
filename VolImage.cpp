@@ -129,8 +129,8 @@ namespace SCRSHA001{
         ofstream outputFileOfSlice("ExtraCreditOutput.raw",ios::out | ios::binary);
 
         //Create a new raw data file with the same row from each slice image
-        for (int i = 0; i < slices.size(); ++i) {
-            for (int j = 0; j < width; ++j) {
+        for (int i = 0; i < slices.size(); i++) {
+            for (int j = 0; j < width; j++) {
                 //Write the specified row from each image slice into a new raw file
                 outputFileOfSlice.write((const char *) &slices[i][rowToExtract][j], sizeof(char));
             }
@@ -139,8 +139,7 @@ namespace SCRSHA001{
     }
 
     int VolImage::volImageSize(void) {
-        //todo FIND OUT HOW TO GET THIS
-        return 0;
+        return height*width *numOfImages();
     }
 
     //Function to return the number of images
