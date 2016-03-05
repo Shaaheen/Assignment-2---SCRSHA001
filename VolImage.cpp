@@ -64,7 +64,6 @@ namespace SCRSHA001{
                     //Create a char array for each row in the image (height)
                     slices[i][j] = (unsigned char *) new char*[width];
                     for (int k = 0; k < width; ++k) {
-                        //cout <<rawFile.get() <<" ";
                         //Add binary data to each element in the row
                         slices[i][j][k] = (unsigned char) char(rawFile.get());
                     }
@@ -73,9 +72,7 @@ namespace SCRSHA001{
             else{ //If ever can't open a raw data file - return false
                 return false;
             }
-            //cout << "Done with File"<<endl;
         }
-       // cout<< to_string(slices[0][1][2]) << endl;
         cout <<"Loaded all Raw files"<<endl;
         return true; //If could open all files -return true
     }
@@ -124,19 +121,27 @@ namespace SCRSHA001{
     }
 
     void VolImage::extractRowFromVolume(int rowToExtract) {
+        //Create a default header for new raw file
+        createDefaultHeader("ExtraCreditOutput");
 
+        //Create new output raw file in binary and for writing
+        ofstream outputFileOfSlice("ExtraCreditOutput.raw",ios::out | ios::binary);
+
+        //Create a new raw data file with the same row from each slice image
         for (int i = 0; i < slices.size(); ++i) {
             for (int j = 0; j < width; ++j) {
-
+                //Write the specified row from each image slice into a new raw file
+                outputFileOfSlice.write((const char *) &slices[i][rowToExtract][j], sizeof(char));
             }
         }
+        outputFileOfSlice.close();
     }
 
     int VolImage::volImageSize(void) {
         return 0;
     }
 
-
+    //Function to return the number of images
     int VolImage::numOfImages(void) {
         return slices.size();
     }
