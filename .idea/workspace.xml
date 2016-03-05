@@ -59,8 +59,8 @@
       <file leaf-file-name="VolImage.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VolImage.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8073879">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state vertical-scroll-proportion="1.525066">
+              <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
               <folding>
                 <element signature="e#43#61#0" expanded="true" />
               </folding>
@@ -232,7 +232,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457183009011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Will read all binary data into the slices vector&#10;Each char from the binary data is only set to the lowest indexed element&#10;The vector just serves as a pointer to this data">
+      <created>1457185092737</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1457185092737</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -254,7 +260,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.50292826" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39614242" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39614242" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -275,7 +281,8 @@
     <MESSAGE value="Added user interface prompts and allowed command line arguments" />
     <MESSAGE value="Implemented the Constructor and Deconstructor methods for VolImage" />
     <MESSAGE value="Can take in info from the raw header file to check what structure of raw files are like" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can take in info from the raw header file to check what structure of raw files are like" />
+    <MESSAGE value="Will read all binary data into the slices vector&#10;Each char from the binary data is only set to the lowest indexed element&#10;The vector just serves as a pointer to this data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Will read all binary data into the slices vector&#10;Each char from the binary data is only set to the lowest indexed element&#10;The vector just serves as a pointer to this data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VolImage.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8073879">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state vertical-scroll-proportion="1.525066">
+          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
           </folding>
