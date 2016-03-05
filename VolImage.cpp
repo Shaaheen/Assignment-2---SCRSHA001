@@ -6,6 +6,7 @@
 #include <sstream>
 #include <iostream>
 #include "VolImage.h"
+#include <cmath>
 
 using namespace std;
 
@@ -86,8 +87,8 @@ namespace SCRSHA001{
         for (int i = 0; i < height; ++i) {
             for (int j = 0; j < width; ++j) {
                 //Calculate difference between slices
-                unsigned char diffValue = (unsigned char) ( (abs( (float)slices[sliceI][i][j] - (float)slices[sliceJ][i][j] ) )/2);
-                //Write char in slice array into new slice image
+                unsigned char diffValue = (unsigned char) ( (abs( ((float)slices[sliceI][i][j]) - ((float)slices[sliceJ][i][j] ) ) )/2);
+                //Write difference value between slices into new slice image
                 outputFileOfSlice.write((const char *) &diffValue, sizeof(char));
             }
         }

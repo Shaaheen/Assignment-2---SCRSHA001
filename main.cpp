@@ -45,6 +45,8 @@ int main(int argc,char* argv[]) {
                 stringstream getOutputFileName(argv[5]);
                 string outputName;
                 getOutputFileName >> outputName;
+
+                volImage->diffmap(indexOfFile1,indexOfFile2,outputName);
             }
         }
     }
