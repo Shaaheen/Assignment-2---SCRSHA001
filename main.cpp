@@ -48,7 +48,15 @@ int main(int argc,char* argv[]) {
 
                 volImage->diffmap(indexOfFile1,indexOfFile2,outputName);
             }
+            else if (string(argv[2]) == "-d") {
+                int rowFromVolume = getIntFromArgument(argv[3]);
+
+
+            }
+
+            delete volImage;
         }
     }
+
     return 0;
 }

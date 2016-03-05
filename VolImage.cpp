@@ -12,24 +12,26 @@ using namespace std;
 
 namespace SCRSHA001{
 
+    //Constructor
     VolImage::VolImage() {
         width = 0;
         height =0;
     }
 
+    //Deconstructor for VolImage class
     VolImage::~VolImage() {
 
+        //Goes through each element and deletes all the values
         for (int i = 0; i < slices.size(); ++i) {
             for (int j = 0; j < height ; ++j) {
                 for (int k = 0; k < width ; ++k) {
-                    //delete [] slices[i][j][k];
-                    slices[i][j][k] = 0;
+                    slices[i][j][k] = 0; //Sets all char values to 0 to clear memory
                 }
-                delete [] slices[i][j];
+                delete [] slices[i][j]; //Delete rows array
             }
-            delete [] slices[i];
+            delete [] slices[i]; //Delete slices array
         }
-        slices.clear();
+        slices.clear(); //Clear vector
         width = 0;
         height= 0;
     }
@@ -121,6 +123,15 @@ namespace SCRSHA001{
         outputFileOfSlice.close();
     }
 
+    void VolImage::extractRowFromVolume(int rowToExtract) {
+
+        for (int i = 0; i < slices.size(); ++i) {
+            for (int j = 0; j < width; ++j) {
+
+            }
+        }
+    }
+
     int VolImage::volImageSize(void) {
         return 0;
     }
@@ -131,6 +142,7 @@ namespace SCRSHA001{
     }
 
 
+    //Function to get an integer value from a command line input
     int getIntFromArgument(char *argumentValue) {
         stringstream getIntFromArg(argumentValue);
         int argumentInt;
@@ -138,4 +150,6 @@ namespace SCRSHA001{
 
         return argumentInt;
     }
+
+
 }
