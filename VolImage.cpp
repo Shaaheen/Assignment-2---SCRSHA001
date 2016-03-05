@@ -11,8 +11,30 @@ using namespace std;
 
 namespace SCRSHA001{
 
-
+    VolImage::VolImage() {
+        width = 0;
+        height =0;
+        //(**slices)= nullptr;
     }
+
+    VolImage::~VolImage() {
+
+        for (int i = 0; i < slices.size(); ++i) {
+            for (int j = 0; j < height ; ++j) {
+                for (int k = 0; k < width ; ++k) {
+                    //delete [] slices[i][j][k];
+                    slices[i][j][k] = 0;
+                }
+                delete [] slices[i][j];
+            }
+            delete [] slices[i];
+        }
+        //delete slices;
+        width = 0;
+        height= 0;
+    }
+
+
 
     void VolImage::diffmap(int sliceI, int sliceJ, std::string output_prefix) {
 
