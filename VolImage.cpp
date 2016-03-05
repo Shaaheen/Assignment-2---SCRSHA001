@@ -1,6 +1,7 @@
 //
 // Created by Shaaheen on 3/4/2016.
-//
+// Main Implementation of the VolImage class that allows for the operations
+// - extract, differenceMap and extractRow on Volumetric Image
 
 #include <fstream>
 #include <sstream>
@@ -138,6 +139,7 @@ namespace SCRSHA001{
     }
 
     int VolImage::volImageSize(void) {
+        //todo FIND OUT HOW TO GET THIS
         return 0;
     }
 

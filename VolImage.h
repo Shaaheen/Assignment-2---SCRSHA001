@@ -1,6 +1,6 @@
 //
 // Created by Shaaheen on 3/4/2016.
-//
+//Header file for the VolImage class - All declarations
 
 #ifndef ASSIGNMENT_2_SCRSHA001_VOLIMAGE_H
 #define ASSIGNMENT_2_SCRSHA001_VOLIMAGE_H
@@ -40,8 +40,12 @@ namespace SCRSHA001{
         int numOfImages(void);
     };
 
+    //Outside class methods
+
+    //Creates a default header file for any new raw files
     void createDefaultHeader(std::string outputPrefix);
 
+    //Utility method to all int to be retrieved from command line params
     int getIntFromArgument(char* argumentValue);
 }
 

@@ -1,3 +1,7 @@
+//Created by Shaaheen Sacoor - SCRSHA001
+// Driver class that houses the user interface and is used to run program
+///
+
 #include <iostream>
 #include <sstream>
 #include "VolImage.h"
@@ -8,6 +12,7 @@ using namespace SCRSHA001;
 //Take in arguments from command line
 int main(int argc,char* argv[]) {
     cout << "Volumetric Image Manipulation Tool - SCRSHA001" << endl;
+    cout << "Available command = -x -d -g " << endl;
 
     //Check if right amount of arguments
     if (argc >6 || argc < 4){
@@ -21,7 +26,7 @@ int main(int argc,char* argv[]) {
             //Done here as the each command has the same start
             VolImage *volImage = new VolImage; //Create VolImage object
             (*volImage).readImages( string (argv[1])); //Read in all Images into vector inside VolImage
-            cout << "Number of images: " << (*volImage).numOfImages() <<endl; //todo where to get this value
+            cout << "Number of images: " << (*volImage).numOfImages() <<endl;
             cout << "Number of bytes required: "<< (*volImage).volImageSize() <<endl; //todo Find out how to get the number of bytes required
             cout <<endl;
             //If command is to extract
