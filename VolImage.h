@@ -39,6 +39,8 @@ namespace SCRSHA001{
     };
 
     void createDefaultHeader(std::string outputPrefix);
+
+    int getIntFromArgument(char* argumentValue);
 }
 
 

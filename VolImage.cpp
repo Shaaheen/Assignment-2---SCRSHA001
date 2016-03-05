@@ -78,6 +78,20 @@ namespace SCRSHA001{
     }
 
     void VolImage::diffmap(int sliceI, int sliceJ, std::string output_prefix) {
+        //Create a default header for new raw file
+        createDefaultHeader(output_prefix);
+
+        //Create new output raw file in binary and for writing
+        ofstream outputFileOfSlice(output_prefix + ".raw",ios::out | ios::binary);
+        for (int i = 0; i < height; ++i) {
+            for (int j = 0; j < width; ++j) {
+                //Calculate difference between slices
+                unsigned char diffValue = (unsigned char) ( (abs( (float)slices[sliceI][i][j] - (float)slices[sliceJ][i][j] ) )/2);
+                //Write char in slice array into new slice image
+                outputFileOfSlice.write((const char *) &diffValue, sizeof(char));
+            }
+        }
+        outputFileOfSlice.close();
 
     }
 
@@ -116,4 +130,11 @@ namespace SCRSHA001{
     }
 
 
+    int getIntFromArgument(char *argumentValue) {
+        stringstream getIntFromArg(argumentValue);
+        int argumentInt;
+        getIntFromArg >> argumentInt;
+
+        return argumentInt;
+    }
 }
