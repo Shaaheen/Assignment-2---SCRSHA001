@@ -11,21 +11,22 @@ eg: ./volimage MRI -d 5 7 differenceMapOutput
 	
 Choose only one of the arguments above; either -d, -x or -g.
 
+EXTRA CREDIT
+-g i :
+		-g = extracts a row from the whole volume
+		i = row that is going to be extracted
+
+NORMAL
 -d i j output_file_name :
 						-d = differenceMap (Shows the differences between two raw files
-						i = index of first file ; j = index of second file
+						i = index of first file ;
+						j = index of second file
 						output_file_name = name of the output file that will be created
 
 -x i output_file_name:
 						-x = extract (Copies the raw data of a chosen file into a new raw data file)
 						i = index of raw data file
 						output_file_name = name of the output file that will be created
-
-EXTRA CREDIT
--g i :
-		-g = extracts a row from the whole volume
-		i = row that is going to be extracted
-		
 
 VolImage.cpp :
 	Implementation of the VolImage class 

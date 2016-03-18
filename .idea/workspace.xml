@@ -11,10 +11,133 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8291d01a-fa93-4b11-b7f0-8a3797e9109e" name="Default" comment="Added Readme file">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadMe.md" />
+    <list default="true" id="8291d01a-fa93-4b11-b7f0-8a3797e9109e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI0.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI1.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI10.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI100.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI101.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI102.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI103.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI104.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI105.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI106.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI107.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI108.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI109.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI11.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI110.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI111.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI112.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI113.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI114.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI115.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI116.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI117.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI118.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI119.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI12.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI120.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI121.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI122.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI13.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI14.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI15.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI16.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI17.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI18.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI19.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI2.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI20.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI21.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI22.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI23.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI24.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI25.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI26.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI27.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI28.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI29.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI3.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI30.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI31.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI32.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI33.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI34.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI35.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI36.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI37.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI38.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI39.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI4.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI40.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI41.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI42.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI43.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI44.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI45.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI46.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI47.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI48.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI49.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI5.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI50.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI51.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI52.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI53.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI54.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI55.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI56.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI57.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI58.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI59.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI6.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI60.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI61.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI62.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI63.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI64.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI65.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI66.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI67.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI68.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI69.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI7.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI70.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI71.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI72.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI73.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI74.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI75.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI76.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI77.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI78.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI79.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI8.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI80.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI81.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI82.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI83.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI84.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI85.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI86.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI87.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI88.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI89.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI9.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI90.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI91.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI92.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI93.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI94.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI95.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI96.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI97.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI98.raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brain_mri_raws/MRI99.raw" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.md" afterPath="$PROJECT_DIR$/ReadMe.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolImage.cpp" afterPath="$PROJECT_DIR$/VolImage.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
@@ -47,11 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.323185">
+              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
               <folding>
                 <element signature="e#120#139#0" expanded="true" />
               </folding>
@@ -59,11 +182,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VolImage.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadMe.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.62963">
+              <caret line="28" column="87" selection-start-line="28" selection-start-column="87" selection-end-line="28" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VolImage.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VolImage.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42819843">
-              <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="134" column="98" selection-start-line="134" selection-start-column="98" selection-end-line="134" selection-end-column="98" />
               <folding>
                 <element signature="e#179#197#0" expanded="true" />
               </folding>
@@ -94,6 +227,7 @@
         <option value="$PROJECT_DIR$/VolImage.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/VolImage.cpp" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -201,7 +335,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="MRI -x 10 test10" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Assignment_2___SCRSHA001" TARGET_NAME="Assignment_2___SCRSHA001" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment_2___SCRSHA001" RUN_TARGET_NAME="Assignment_2___SCRSHA001">
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="MRI -g 20" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Assignment_2___SCRSHA001" TARGET_NAME="Assignment_2___SCRSHA001" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment_2___SCRSHA001" RUN_TARGET_NAME="Assignment_2___SCRSHA001">
       <envs />
       <method />
     </configuration>
@@ -309,7 +443,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457203174118</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Readme file">
+      <created>1457206696234</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1457206696234</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -323,15 +463,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1749634" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6454006" sideWeight="0.49707174" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33531156" sideWeight="0.49707174" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.50292826" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3902077" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3249258" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -371,7 +511,8 @@
     <MESSAGE value="Cleaned up interface and added more feedback messages" />
     <MESSAGE value="Final touches -added more comments,etc" />
     <MESSAGE value="Added Makefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Makefile" />
+    <MESSAGE value="Added Readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Readme file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -384,6 +525,44 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#120#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VolImage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="144" column="45" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
+          <folding>
+            <element signature="e#179#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VolImage.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+          <folding>
+            <element signature="e#181#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -440,22 +619,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/VolImage.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <caret line="134" column="98" selection-start-line="134" selection-start-column="98" selection-end-line="134" selection-end-column="98" />
           <folding>
-            <element signature="e#120#139#0" expanded="true" />
+            <element signature="e#179#197#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VolImage.cpp">
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42819843">
-          <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+        <state vertical-scroll-proportion="-17.62963">
+          <caret line="28" column="87" selection-start-line="28" selection-start-column="87" selection-end-line="28" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.323185">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
           <folding>
-            <element signature="e#179#197#0" expanded="true" />
+            <element signature="e#120#139#0" expanded="true" />
           </folding>
         </state>
       </provider>

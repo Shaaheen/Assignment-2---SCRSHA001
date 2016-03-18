@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <sstream>
+#include <bits/unique_ptr.h>
 #include "VolImage.h"
 
 using namespace std;

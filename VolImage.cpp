@@ -26,7 +26,7 @@ namespace SCRSHA001{
         for (int i = 0; i < slices.size(); ++i) {
             for (int j = 0; j < height ; ++j) {
                 for (int k = 0; k < width ; ++k) {
-                    slices[i][j][k] = 0; //Sets all char values to 0 to clear memory
+                    slices[i][j][k] = 0; //Sets all char values to 0 to clear memory - easily overwritten
                 }
                 delete [] slices[i][j]; //Delete rows array
             }
