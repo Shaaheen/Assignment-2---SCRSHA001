@@ -91,7 +91,7 @@ namespace SCRSHA001{
                 //Calculate difference between slices
                 unsigned char diffValue = (unsigned char) ( (abs( ((float)slices[sliceI][i][j]) - ((float)slices[sliceJ][i][j] ) ) )/2);
                 //Write difference value between slices into new slice image
-                outputFileOfSlice.write((const char *) diffValue, sizeof(char));
+                outputFileOfSlice.write((const char *) &diffValue, sizeof(char));
             }
         }
         outputFileOfSlice.close();
