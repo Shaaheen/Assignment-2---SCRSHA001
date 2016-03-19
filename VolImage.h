@@ -14,6 +14,7 @@ namespace SCRSHA001{
     private: // private members
         int width, height; // width and height of image stack
         std::vector<unsigned char**> slices; // data for each slice, in order
+
     public: // public members
         VolImage(); // default constructor - define in .cpp
         ~VolImage(); // destructor - define in .cpp file

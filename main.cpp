@@ -24,12 +24,13 @@ int main(int argc,char* argv[]) {
         if (string(argv[2]) == "-x" || string(argv[2]) == "-d" || string(argv[2]) == "-g"){
             cout <<"Arguments validated." <<endl;
             cout <<endl;
-            //Done here as the each command has the same start
-            VolImage *volImage = new VolImage; //Create VolImage object
-            (*volImage).readImages( string (argv[1])); //Read in all Images into vector inside VolImage
-            cout << "Number of images: " << (*volImage).numOfImages() <<endl;
-            cout << "Number of bytes required: "<< (*volImage).volImageSize() <<endl; //todo Find out how to get the number of bytes required
+            //Done here as each command has the same start
+            VolImage volImage = VolImage(); //Create VolImage object on stack so automatically deleted
+            (volImage).readImages( string (argv[1])); //Read in all Images into vector inside VolImage
+            cout << "Number of images: " << (volImage).numOfImages() <<endl;
+            cout << "Number of bytes required: "<< (volImage).volImageSize() <<endl; //todo Find out how to get the number of bytes required
             cout <<endl;
+
             //If command is to extract
             if (string(argv[2]) == "-x"){
                 cout<<"Extract option chosen"<<endl;
@@ -41,7 +42,7 @@ int main(int argc,char* argv[]) {
                 getOutputFileName >> outputName;
 
                 cout<< "Extracting slice "<< indexOfFile << " into file " << outputName << ".raw"<<endl;
-                volImage->extract(indexOfFile,outputName);
+                volImage.extract(indexOfFile,outputName);
             }
             else if (string(argv[2]) == "-d"){
                 cout<<"Difference Map option chosen"<<endl;
@@ -56,18 +57,16 @@ int main(int argc,char* argv[]) {
 
                 cout <<"Differentiating slice "<<indexOfFile1<< " from slice "<< indexOfFile2<< " into new file "<<outputName<< ".raw"<<endl;
                 //Call diffmap function
-                volImage->diffmap(indexOfFile1,indexOfFile2,outputName);
+                volImage.diffmap(indexOfFile1,indexOfFile2,outputName);
 
             }
             else if (string(argv[2]) == "-g") {
                 cout<<"Extracting row from whole volume option chosen [Extra Credit]"<<endl;
                 int rowFromVolume = getIntFromArgument(argv[3]); //Get given row
                 cout<<"Extracting row "<<rowFromVolume<< " from all slices in Volume into new file ExtraCreditOutput.raw"<<endl;
-                volImage->extractRowFromVolume(rowFromVolume); //Call extractRow function
+                volImage.extractRowFromVolume(rowFromVolume);//Call extractRow function
             }
             cout<<"Successful."<<endl;
-
-            delete volImage;
         }
     }
 

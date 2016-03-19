@@ -15,6 +15,7 @@ namespace SCRSHA001{
 
     //Constructor
     VolImage::VolImage() {
+        cout<<"Constructor called"<<endl;
         width = 0;
         height =0;
     }
@@ -22,6 +23,7 @@ namespace SCRSHA001{
     //Deconstructor for VolImage class
     VolImage::~VolImage() {
 
+        cout<<"Destructor called"<<endl;
         //Goes through each element and deletes all the values
         for (int i = 0; i < slices.size(); ++i) {
             for (int j = 0; j < height ; ++j) {
@@ -60,7 +62,7 @@ namespace SCRSHA001{
 
             if (rawFile.is_open()){ //Check if open
                 //Create a pointer char array representing a whole Image (slice) - add pointer to this array into slices vector
-                slices.push_back( (unsigned char **) new char**[height]);
+                slices.push_back((unsigned char **) new unsigned char**[height]);
                 for (int j = 0; j < height; ++j) {
                     //Create a char array for each row in the image (height)
                     slices[i][j] = (unsigned char *) new char*[width];
@@ -89,7 +91,7 @@ namespace SCRSHA001{
                 //Calculate difference between slices
                 unsigned char diffValue = (unsigned char) ( (abs( ((float)slices[sliceI][i][j]) - ((float)slices[sliceJ][i][j] ) ) )/2);
                 //Write difference value between slices into new slice image
-                outputFileOfSlice.write((const char *) &diffValue, sizeof(char));
+                outputFileOfSlice.write((const char *) diffValue, sizeof(char));
             }
         }
         outputFileOfSlice.close();
@@ -138,6 +140,7 @@ namespace SCRSHA001{
         outputFileOfSlice.close();
     }
 
+    //Total bytes used i.e total number of chars in all files
     int VolImage::volImageSize(void) {
         return height*width *numOfImages();
     }
