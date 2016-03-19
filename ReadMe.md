@@ -4,11 +4,13 @@ To run:
     1) Go into directory from terminal
     2) Run "make" command in terminal to compile the program
     3) run ./volimage <imageBase> [-d i j output_file_name] [-x i output_file_name] [-g i] command from terminal
-	(<imageBase> is the prefix name for all the raw files i.e MRI)
+	(<imageBase> is the prefix name for all the raw files i.e MRI, see below for specifics on each function)
 	4) Program should create a new raw data file in the same directory
 	
 eg: ./volimage MRI -d 5 7 differenceMapOutput
-	
+
+Note* : Only attached the whole mri raw files directory for convenience. Patrick was asked if this could be done and he obliged
+
 Choose only one of the arguments above; either -d, -x or -g.
 
 EXTRA CREDIT
@@ -37,3 +39,4 @@ main.cpp:
 
 VolImage.h:
 	Header file for the VolImage class declarations
+	

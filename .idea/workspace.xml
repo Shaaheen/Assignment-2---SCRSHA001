@@ -13,7 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8291d01a-fa93-4b11-b7f0-8a3797e9109e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolImage.cpp" afterPath="$PROJECT_DIR$/VolImage.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.md" afterPath="$PROJECT_DIR$/ReadMe.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="Assignment 2 - SCRSHA001.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.6069364">
+              <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
               <folding>
                 <element signature="e#120#139#0" expanded="true" />
               </folding>
@@ -59,17 +60,17 @@
       <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReadMe.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.62963">
-              <caret line="28" column="87" selection-start-line="28" selection-start-column="87" selection-end-line="28" selection-end-column="87" />
+            <state vertical-scroll-proportion="-18.88889">
+              <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VolImage.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VolImage.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VolImage.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4479769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="93" column="56" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
               <folding>
                 <element signature="e#179#197#0" expanded="true" />
@@ -100,8 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/VolImage.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/VolImage.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -335,7 +336,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458413135680</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Small edit to ensure writing of byte">
+      <created>1458413558093</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1458413558093</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -400,7 +407,8 @@
     <MESSAGE value="Added Readme file" />
     <MESSAGE value="Added brain mr raw files for convinient running of program" />
     <MESSAGE value="Edited code to use Volimage on the stack rather than the heap so it becomes an automatic variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited code to use Volimage on the stack rather than the heap so it becomes an automatic variable" />
+    <MESSAGE value="Small edit to ensure writing of byte" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small edit to ensure writing of byte" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -499,8 +507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.62963">
-          <caret line="28" column="87" selection-start-line="28" selection-start-column="87" selection-end-line="28" selection-end-column="87" />
+        <state vertical-scroll-proportion="-18.88889">
+          <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
           <folding />
         </state>
       </provider>
@@ -515,22 +523,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/VolImage.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+          <caret line="93" column="56" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
           <folding>
-            <element signature="e#120#139#0" expanded="true" />
+            <element signature="e#179#197#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VolImage.cpp">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4479769">
-          <caret line="93" column="56" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.6069364">
+          <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
           <folding>
-            <element signature="e#179#197#0" expanded="true" />
+            <element signature="e#120#139#0" expanded="true" />
           </folding>
         </state>
       </provider>

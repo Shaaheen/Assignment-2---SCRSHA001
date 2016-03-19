@@ -68,6 +68,9 @@ int main(int argc,char* argv[]) {
             }
             cout<<"Successful."<<endl;
         }
+        else{
+            cout << "Incorrect Paremeters" <<endl;
+        }
     }
 
     return 0;
