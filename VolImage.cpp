@@ -40,7 +40,6 @@ namespace SCRSHA001{
     }
 
     bool VolImage::readImages(std::string baseName) {
-
         string fileDirectory = "brain_mri_raws/"; //Directory where raw files are kept
         ifstream headerFile(fileDirectory + baseName + ".data"); //Access header file
         string headerInfo;
@@ -49,9 +48,7 @@ namespace SCRSHA001{
 
         //Store info from header
         int numOfFiles;
-        streamOfHeaderInfo >> width;
-        streamOfHeaderInfo >> height;
-        streamOfHeaderInfo >> numOfFiles;
+        streamOfHeaderInfo >> width >> height >> numOfFiles;
 
         cout << "Loading raw files into program..." <<endl;
         //Insert binary data from raw files into slices array
@@ -61,16 +58,7 @@ namespace SCRSHA001{
             ifstream rawFile(fileDirectory + baseName   + to_string(i) +  ".raw",ios::binary);
 
             if (rawFile.is_open()){ //Check if open
-                //Create a pointer char array representing a whole Image (slice) - add pointer to this array into slices vector
-                slices.push_back((unsigned char **) new unsigned char**[height]);
-                for (int j = 0; j < height; ++j) {
-                    //Create a char array for each row in the image (height)
-                    slices[i][j] = (unsigned char *) new char*[width];
-                    for (int k = 0; k < width; ++k) {
-                        //Add binary data to each element in the row
-                        slices[i][j][k] = (unsigned char) char(rawFile.get());
-                    }
-                }
+                loadInSliceFromRaw(i, rawFile); //Loads in slice
             }
             else{ //If ever can't open a raw data file - return false
                 return false;
@@ -78,6 +66,20 @@ namespace SCRSHA001{
         }
         cout <<"Loaded all Raw files"<<endl;
         return true; //If could open all files -return true
+    }
+
+    //Loads in slice images into the vector
+    void VolImage::loadInSliceFromRaw(int i, ifstream &rawFile) {
+        //Create a pointer char array representing a whole Image (slice) - add pointer to this array into slices vector
+        slices.push_back((unsigned char **) new unsigned char**[height]);
+        for (int j = 0; j < height; ++j) {
+            //Create a char array for each row in the image (height)
+            slices[i][j] = (unsigned char *) new char*[width];
+            for (int k = 0; k < width; ++k) {
+                //Add binary data to each element in the row
+                slices[i][j][k] = (unsigned char) char(rawFile.get());
+            }
+        }
     }
 
     void VolImage::diffmap(int sliceI, int sliceJ, std::string output_prefix) {
@@ -159,6 +161,5 @@ namespace SCRSHA001{
 
         return argumentInt;
     }
-
 
 }

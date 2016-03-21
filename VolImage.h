@@ -39,6 +39,9 @@ namespace SCRSHA001{
 
         //To get the number of file
         int numOfImages(void);
+
+        //Loads slices vector
+        void loadInSliceFromRaw(int i, std::ifstream &rawFile);
     };
 
     //Outside class methods
