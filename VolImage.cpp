@@ -144,7 +144,9 @@ namespace SCRSHA001{
 
     //Total bytes used i.e total number of chars in all files
     int VolImage::volImageSize(void) {
-        return height*width *numOfImages();
+        int sizeOfAllChars = height*width *numOfImages();
+        int sizeOfAllPointers = numOfImages() * height * sizeof(char*); //sizeof(char*) is a shortcut to the amount of memory used by a pointer
+        return (sizeOfAllChars + sizeOfAllPointers);
     }
 
     //Function to return the number of images
